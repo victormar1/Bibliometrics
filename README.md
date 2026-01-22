@@ -11,15 +11,13 @@ This project presents a comprehensive bibliometric analysis of the research land
 ## ⚙️ Methodological Framework
 
 ### 1. Data Acquisition
-**Database:** [Scopus / Web of Science / PubMed] Core Collection  
-**Search Date:** [Insert Date]
+**Database:** Web of Science Core Collection  
+**Search Date:** 03/01/26
 
 The search strategy targeted the **Title, Abstract, and Keywords** fields to capture the full spectrum of terminology used since the discovery of cytonemes.
 
 **Search Query:**
 > ("cytoneme*" OR "signaling filopodia" OR "signaling protrusions")
-> AND
-> ("signaling" OR "morphogen" OR "transport" OR "development")
 
 ### 2. Selection Criteria
 To ensure data quality and relevance, the following filters were applied during the screening process:
@@ -43,6 +41,6 @@ The analysis relies on a combination of Python scripting for data processing and
 
 *> This section details the semantic mapping used to standardize keywords and resolve synonyms.*
 
-[... Section to be completed by the author ...]
+[... Section to be completed ...]
 
 ---
