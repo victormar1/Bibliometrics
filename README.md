@@ -1,27 +1,48 @@
-# Bibliometrics
+# 🧬 Bibliometric Landscape of Cytoneme Research
 
-📄 Methodology
-1. Data Source and Search Strategy
-The bibliometric data for this analysis was retrieved from the [Scopus/PubMed/Web of Science] database (Note: choose your database). The search strategy was designed to capture the entire landscape of cytoneme research, including early nomenclature and functional synonyms.
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Method](https://img.shields.io/badge/Method-Bibliometrics-orange)
 
-The following Boolean search string was applied to the "Title/Abstract/Keywords" fields:
+## 📌 Overview
+This project presents a comprehensive bibliometric analysis of the research landscape surrounding **cytonemes** (signaling filopodia). By leveraging metadata from major scientific databases, this repository maps the historical evolution, thematic clusters, and collaborative networks that define this niche field of developmental biology.
 
-Plaintext
+---
 
-("cytoneme*" OR "signaling filopodia" OR "signaling protrusions" OR "specialized filopodia")
-AND
-("signaling" OR "morphogen" OR "transport" OR "communication")
-2. Inclusion and Exclusion Criteria
-Time Period: From inception (1999) to [Current Year].
+## ⚙️ Methodological Framework
 
-Document Types: Original Research Articles and Reviews were included. Editorials, errata, and conference abstracts were excluded to ensure data quality.
+### 1. Data Acquisition
+**Database:** [Scopus / Web of Science / PubMed] Core Collection  
+**Search Date:** [Insert Date]
 
-Language: Limited to English-language publications.
+The search strategy targeted the **Title, Abstract, and Keywords** fields to capture the full spectrum of terminology used since the discovery of cytonemes.
 
-3. Data Normalization (Thesaurus)
-To ensure accurate clustering and keyword frequency analysis, raw keywords extracted from the dataset were normalized using a controlled vocabulary (Thesaurus). This step corrects for spelling variations (e.g., Drosophila vs. Drosophila melanogaster) and groups functional synonyms.
+**Search Query:**
+> ("cytoneme*" OR "signaling filopodia" OR "signaling protrusions")
+> AND
+> ("signaling" OR "morphogen" OR "transport" OR "development")
 
-The semantic mapping used for this analysis is detailed below.
+### 2. Selection Criteria
+To ensure data quality and relevance, the following filters were applied during the screening process:
 
-🧱 Thesaurus & Keyword Mapping
-The following dictionary was applied to merge synonymous terms and categorize biological concepts during the text mining phase.
+| Criterion | Inclusion | Exclusion |
+| :--- | :--- | :--- |
+| **Timespan** | 1999 — Present | Pre-1999 records |
+| **Document Type** | Articles, Reviews | Editorials, Errata, Abstracts |
+| **Language** | English | Non-English text |
+
+### 3. Computational Environment
+The analysis relies on a combination of Python scripting for data processing and specialized bibliometric software for network visualization.
+
+* **Python (v3.10) & Pandas:** Used for data cleaning, deduplication, and pre-processing.
+* **VOSviewer (v1.6.20):** Utilized for co-occurrence and co-authorship network visualization (using fractional counting).
+* **Bibliometrix (R-Package):** Employed for statistical performance indicators (Growth rate, H-index).
+
+---
+
+## 📚 Thesaurus & Data Normalization
+
+*> This section details the semantic mapping used to standardize keywords and resolve synonyms.*
+
+[... Section to be completed by the author ...]
+
+---
